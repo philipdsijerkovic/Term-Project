@@ -1,1 +1,1 @@
-# termproject.github.io
+My term project for CSC 372 - Web Development
