@@ -14,7 +14,7 @@ header {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    position: relative; /* Make the header a positioning context */
+    position: relative; 
 }
 
 header h1 {
@@ -178,14 +178,71 @@ header h1 {
 
 .details-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    gap: 20px;
+    align-items: center; 
+    justify-content: center; 
 }
 
 .details-container img {
-    max-width: 300px;
+    max-width: 450px;
     height: auto;
     border-radius: 10px;
-    justify-content: left;
+    margin-left: 50px;
 }
+
+.details-container .details-info {
+    max-width: 600px;
+    height: 450px;
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.details-container h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.details-container p {
+    font-size: 24px;
+    margin-bottom: 5px;
+    max-width: 450px;
+}
+
+.details-container .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4595a0;
+    margin-bottom: 30px;
+}
+
+.size {
+    color: grey;
+}
+
+.details-container button {
+    background-color: #e0f7fa;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+.details-container button:hover {
+    background-color: #77c2d4;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+/* I did so many styles and flex things that might be redundant so I'll revisit that later */
