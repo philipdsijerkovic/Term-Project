@@ -245,4 +245,53 @@ header h1 {
 footer {
     text-align: center;
 }
-/* I did so many styles and flex things that might be redundant so I'll revisit that later */
+
+.cart h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    flex-direction: row;
+}
+
+.cart-item img {
+    max-width: 100px; 
+    height: auto;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.cart-item button {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-color: transparent;
+}
+
+.cart-total {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.checkout-button {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-color: transparent;
+    padding: 20px;
+}
+
+.products .search-bar-container {
+    margin-right: 100px;
+    width: 25%;
+}
