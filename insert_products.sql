@@ -1,5 +1,5 @@
 INSERT INTO products (name, description, image_url, price, category_id, featured) VALUES
-('Atlantic Salmon', 'Fresh Atlantic salmon with tender flakes.', 'images/salmon.png', 10.00, 1, TRUE),
+('Atlantic Salmon', 'Fresh Atlantic salmon, straight to your door.', 'images/salmon.png', 10.00, 1, TRUE),
 ('Bluefin Tuna', 'Fresh bluefin tuna, the most famous fish for sushi.', 'images/tuna.png', 20.00, 1, FALSE),
 ('Lobster', 'Fresh lobster from Canada', 'images/lobster.png', 25.00, 1, TRUE),
 ('Catfish', 'Catfish from Lousiana', 'images/catfish.png', 8.00, 2, FALSE),
